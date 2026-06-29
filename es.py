@@ -7,13 +7,12 @@ import math
 import os
 import sys
 
-# ------------------------------------------------------------------
+
 # OFFSETS (CS2 as of 2026-06-29) - UPDATE on every game patch
-# ------------------------------------------------------------------
-# client.dll base offsets
-dwLocalPlayer         = 0xDEA964          # client.dll + offset -> local player controller
-dwEntityList          = 0xDF2F38          # client.dll + offset -> entity list (radar struct)
-dwViewMatrix          = 0x1B3D5A0         # client.dll + offset -> view matrix for W2S
+
+dwLocalPlayer         = 0xDEA964         #local player controller
+dwEntityList          = 0xDF2F38          # radar struct
+dwViewMatrix          = 0x1B3D5A0         # view matrix for W2S
 dwGlowObjectManager   = 0xDFB898          # not used, kept for reference
 dwForceJump           = 0xDFC7B0          # not used
 
