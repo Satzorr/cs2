@@ -1,7 +1,8 @@
 import pymem
 import pymem.process
 import ctypes
-from ctypes import wintypes
+from ctypes 
+import wintypes
 import time
 import math
 import os
